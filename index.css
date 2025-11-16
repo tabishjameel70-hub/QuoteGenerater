@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #fefae0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: #dda15e;
+    border-radius: 30px;
+  
+}
+
+div h1 {
+    color: #283618;
+    font-family: "Kablammo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
+}
+
+h5 {
+    font-family: "Aladin", system-ui;
+    font-weight: 750;
+    font-style: normal;
+    color: #fefae0;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    
+}
+
+button {
+    margin-top: 10px;
+    height: 41px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #bc6c25;
+    color: #283618;
+    font-family: "Pirata One", system-ui;
+    font-weight: 700;
+    font-style: normal;
+      cursor: pointer;
+}
